@@ -328,7 +328,13 @@ export function MainContent() {
             Telegram
           </Link>
         </div>
-        <div className="text-[14px] text-[#7A7A7A]">{t.footer.copyright}</div>
+        <div className="flex items-center gap-2 text-[14px] text-[#7A7A7A]">
+          <span>{t.footer.copyright}</span>
+          <span aria-hidden="true">·</span>
+          <Link href="/terms" className="hover:text-foreground transition-colors">
+            Terms of Service
+          </Link>
+        </div>
       </footer>
 
     </div>
