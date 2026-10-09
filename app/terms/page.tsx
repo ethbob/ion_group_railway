@@ -114,8 +114,8 @@ const sections: Section[] = [
     title: "Onboarding and start",
     body: (
       <P>
-        Work starts after we receive full payment of the first invoice and the completed onboarding brief. We
-        deliver the first content plan within 5 business days of that point.
+        Work starts after we receive the first installment and the account access and information listed in
+        Section 6. We deliver the first content plan within 5 business days of that point.
       </P>
     ),
   },
@@ -209,7 +209,7 @@ const sections: Section[] = [
           items={[
             "Both installments are one monthly obligation. Paying the first installment commits you to paying the second, including if you give notice of termination.",
             "Invoices are issued 7 days before each due date.",
-            "Prices are net. VAT is added where required by law. For business clients outside Germany, the reverse-charge mechanism may apply.",
+            "Prices do not include taxes, duties or fees that may apply in the Client's jurisdiction. These are paid by the Client.",
           ]}
         />
       </>
@@ -330,8 +330,8 @@ const sections: Section[] = [
           are not liable for indirect damages, lost profits, lost tokens or market losses.
         </P>
         <P>
-          These limits do not apply to intent, gross negligence, injury to life, body or health, or where
-          liability cannot be limited under German law.
+          These limits do not apply to fraud, wilful misconduct, death or personal injury caused by negligence,
+          or any liability that cannot be limited under applicable law.
         </P>
       </>
     ),
@@ -350,9 +350,8 @@ const sections: Section[] = [
     body: (
       <>
         <P>
-          These Terms are governed by the laws of the Federal Republic of Germany, excluding the UN Convention on
-          Contracts for the International Sale of Goods. For business clients, the courts at ION GROUP&apos;s place
-          of business in Germany have exclusive jurisdiction.
+          These Terms and any dispute arising from them are governed by the laws of England and Wales. The courts
+          of England and Wales have exclusive jurisdiction.
         </P>
         <P>Before going to court, both parties will try to resolve any dispute in good faith within 30 days.</P>
       </>
